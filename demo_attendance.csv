@@ -1,0 +1,16 @@
+student_id,name,date,time,status,location,arrival_status,exit_time
+DEMO001,Aarav Sharma,2026-11-23,08:10:00,Present,Demo location,Present,
+DEMO002,Aditi Verma,2026-11-23,08:18:00,Present,Demo location,Present,
+DEMO003,Ananya Singh,2026-11-23,08:22:00,Present,Demo location,Present,
+DEMO004,Arjun Kumar,2026-11-23,08:27:00,Present,Demo location,Present,
+DEMO005,Diya Gupta,2026-11-23,08:31:00,Present,Demo location,Present,
+DEMO006,Ishaan Das,2026-11-23,08:35:00,Present,Demo location,Present,
+DEMO007,Kavya Mishra,2026-11-23,08:40:00,Present,Demo location,Present,
+DEMO008,Kunal Roy,2026-11-23,08:43:00,Present,Demo location,Present,
+DEMO009,Meera Sinha,2026-11-23,08:48:00,Present,Demo location,Present,
+DEMO010,Neha Kumari,2026-11-23,08:52:00,Present,Demo location,Present,
+DEMO011,Rohan Patel,2026-11-23,09:06:00,Late,Demo location,Late,
+DEMO012,Sana Khan,2026-11-23,09:12:00,Late,Demo location,Late,
+DEMO013,Sarthak Jain,2026-11-23,09:19:00,Late,Demo location,Late,
+DEMO014,Simran Das,2026-11-23,08:25:00,Left,Demo location,Present,12:30:00
+DEMO015,Tanvi Rao,2026-11-23,09:08:00,Left,Demo location,Late,12:30:00
