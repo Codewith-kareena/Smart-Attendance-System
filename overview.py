@@ -1,5 +1,4 @@
-import base64
-from pathlib import Path
+
 
 import streamlit as st
 
@@ -9,18 +8,11 @@ def navigate_to_page(page_name):
 
 
 def render_overview():
-    project_dir = Path(__file__).parent
+      project_dir = Path(__file__).parent
     stylesheet = project_dir / "overview.css"
-    nebula_image = project_dir / "assets" / "cosmic-nebula.jpg"
-    team_image = project_dir / "assets" / "team-photo.png"
 
     css = stylesheet.read_text(encoding="utf-8")
-    image_data = base64.b64encode(nebula_image.read_bytes()).decode("ascii")
-    team_image_data = base64.b64encode(team_image.read_bytes()).decode("ascii")
-    css = css.replace(
-        "__NEBULA_IMAGE__",
-        f"data:image/jpeg;base64,{image_data}"
-    )
+    css = css.replace("__NEBULA_IMAGE__", "none")
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
     hero_markup = """
@@ -162,3 +154,4 @@ def render_overview():
         """,
         unsafe_allow_html=True
     )
+
